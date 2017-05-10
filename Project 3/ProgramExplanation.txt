@@ -1,0 +1,5 @@
+I was able to build a working mymalloc.c file, but was unable to fully implement a 
+best-fit algorithm. The function will loop through to find if a given space exactly
+fits the requested size, but otherwise, just finds the next portion of free space
+that is able to accomadate the malloc, and takes it, splitting off the remaining 
+portion into a new free'd space.
